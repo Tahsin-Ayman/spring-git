@@ -1,7 +1,12 @@
 package com.fullstackbd.springit;
-
-import org.springframework.boot.SpringApplication;
+/*
+	/{name}
+	POJO func(@PathVariable("name") String name) {
+		return // construct the class
+	}
+ */
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.SpringApplication;
 
 @SpringBootApplication
 public class SpringitApplication {
