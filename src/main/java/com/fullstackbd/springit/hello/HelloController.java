@@ -27,5 +27,9 @@ public class HelloController {
     public Hello helloName(@PathVariable("name") String name) {
         return new Hello("Hello, " + name);
     }
+    @GetMapping("/mello")
+    public String gello() {
+        return "kello";
+    }
 
 }
